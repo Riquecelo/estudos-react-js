@@ -2,8 +2,8 @@
 
 # Estudos-React-JS
 
-Instruções:<br>
+**Instruções:**<br>
 * Node version 18.12.1
-* Apos clonar o projeto abra o diretório **my-app** no seu editor
+* Após clonar o projeto abra o diretório **my-app** no seu editor
 * abra o terminal e use o comando ' npm install '
 * para rodar o projeto use o comando ' npm start '
