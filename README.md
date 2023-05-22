@@ -1,1 +1,3 @@
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Riquecelo/estudos-react-js" /> <img alt="GitHub Commit Activity (Month)" src="https://img.shields.io/github/commit-activity/m/Riquecelo/estudos-react-js" /> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/Riquecelo/estudos-react-js" /> <img alt="" src="https://img.shields.io/github/repo-size/Riquecelo/estudos-react-js" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Riquecelo/estudos-react-js" /> <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Riquecelo/estudos-react-js" />
+
 # estudos-react-js
