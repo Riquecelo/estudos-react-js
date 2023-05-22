@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 //import HelloWorld from './components/HelloWorld';
-import Operacoes from './components/Operacoes';
+//import Operacoes from './components/Operacoes';
+import Variaveis from './components/UsandoVariaveis';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-        <Operacoes/>
+        <Variaveis/>
+
       </header>
     </div>
   );
