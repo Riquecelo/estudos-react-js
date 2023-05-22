@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import FragmentLista from './components/FrangmentList';
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
-import Variaveis from './components/UsandoVariaveis';
+//import Variaveis from './components/UsandoVariaveis';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-        <Variaveis/>
+        <FragmentLista/>
 
       </header>
     </div>
