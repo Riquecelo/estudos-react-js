@@ -1,6 +1,6 @@
-import PropsBasico from "./props/PropsBasico";
-import PropsIntermediario from "./props/PropsIntermediario";
-import PropsAvancado from "./props/PropsAvancado";
+import PropsBasico from "./PropsBasico";
+import PropsIntermediario from "./PropsIntermediario";
+import PropsAvancado from "./PropsAvancado";
 function TesteProps(){
     return(
         <>

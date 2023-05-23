@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import TesteProps from './components/TesteProps';
+import TesteProps from './components/props/TesteProps';
 //import FragmentLista from './components/FrangmentList';
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
