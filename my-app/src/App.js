@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TesteProps from './components/props/TesteProps';
+import Item from './components/propsExpert/Item';
 //import FragmentLista from './components/FrangmentList';
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
@@ -14,6 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         <TesteProps/>
+        <Item/>
       </header>
     </div>
   );
