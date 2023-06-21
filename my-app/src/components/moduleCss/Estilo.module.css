@@ -1,0 +1,18 @@
+/*Não aceita class com hífen ex: .main-container*/
+
+.mainContainer{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frase_estilo{
+    color:aqua;
+    cursor: pointer;
+}
+.frase_estilo:hover{
+    color: chartreuse;
+    
+}
