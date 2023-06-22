@@ -7,7 +7,7 @@ import TesteEstilo from './components/moduleCss/TesteEstilo'
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
 //import Variaveis from './components/UsandoVariaveis';
-import Evento3 from './components/evento/evento3'
+import Evento3 from './components/useState/UseState'
 
 
 function App() {
