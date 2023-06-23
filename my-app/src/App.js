@@ -7,7 +7,7 @@ import TesteEstilo from './components/moduleCss/TesteEstilo'
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
 //import Variaveis from './components/UsandoVariaveis';
-import Evento3 from './components/useState/UseState'
+import Evento4 from './components/eventoProps/evento4'
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <TesteEstilo/>
-        <Evento3 />
+        <Evento4 />
       </header>
     </div>
   );
