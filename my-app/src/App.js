@@ -7,16 +7,19 @@ import TesteEstilo from './components/moduleCss/TesteEstilo'
 //import HelloWorld from './components/HelloWorld';
 //import Operacoes from './components/Operacoes';
 //import Variaveis from './components/UsandoVariaveis';
-import Evento4 from './components/eventoProps/evento4'
+import RendLista from './components/rendLista/RendLista'
 
 
 function App() {
+
+  const meuItens = ['React', 'Node', 'Jquery'];
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <TesteEstilo/>
-        <Evento4 />
+        <RendLista itens={meuItens}/>
       </header>
     </div>
   );
