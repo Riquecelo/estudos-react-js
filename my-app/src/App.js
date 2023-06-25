@@ -1,25 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-//import TesteProps from './components/props/TesteProps';
-//import Item from './components/propsExpert/Item';
-import TesteEstilo from './components/moduleCss/TesteEstilo'
-//import FragmentLista from './components/FrangmentList';
-//import HelloWorld from './components/HelloWorld';
-//import Operacoes from './components/Operacoes';
-//import Variaveis from './components/UsandoVariaveis';
-import RendLista from './components/rendLista/RendLista'
+import {useState} from 'react'
+import StateLift from './components/stateLift/StateLift';
+import Saudacao from './components/stateLift/Saudacao';
+
+
 
 
 function App() {
+  //array usado no RendList
+  //const meuItens = ['React', 'Node', 'Jquery'];
 
-  const meuItens = ['React', 'Node', 'Jquery'];
+  //usando na pratica do state lift
+  const [nome, setNome] = useState()
 
+  //npm install react-router-dom
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <TesteEstilo/>
-        <RendLista itens={meuItens}/>
+        <h1>Usando o conceito de State Lift</h1>
+        <StateLift setNome={setNome}/>
+        <Saudacao nome={nome}/>
       </header>
     </div>
   );
