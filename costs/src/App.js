@@ -5,17 +5,12 @@ import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import NewProject from './components/pages/NewProject';
 import Container from './components/layout/Container';
+import NavBar from './components/layout/NavBar';
 
 function App() {
   return (
     <Router>
-      <ul>
-          <li> <Link to="/">Home</Link> </li>
-          <li> <Link to="/company">Company</Link> </li>
-          <li> <Link to="/contact">Contact</Link> </li>
-          <li> <Link to="/newproject">New Project</Link> </li>
-      </ul>
-
+      < NavBar/>
       {/*esta importando os filhos como props para o container */}
       <Container customClass="min-height"> 
         <Routes>
